@@ -252,3 +252,12 @@
 .store-app:hover{
     width: 80px;
 } 
+
+
+.type{
+    position: absolute;
+    top: 80%;
+    color: white;
+    left: 2%;
+    font-family: 'Montserrat', sans-serif;
+}
