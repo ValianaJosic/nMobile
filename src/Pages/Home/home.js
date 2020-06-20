@@ -12,7 +12,7 @@ var TxtRotate = function (el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
     this.loopNum = 0;
-    this.period = parseInt(period, 10) || 2000;
+    this.period = parseInt(period, 40) || 4000;
     this.txt = '';
     this.tick();
     this.isDeleting = false;
@@ -31,7 +31,7 @@ TxtRotate.prototype.tick = function () {
     this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
 
     var that = this;
-    var delta = 300 - Math.random() * 100;
+    var delta = 300 - Math.random() * 500;
 
     if (this.isDeleting) { delta /= 2; }
 
@@ -109,11 +109,11 @@ function Home() {
                 </div>
             </div>
             <div  className="type">
-            <h1>ERP Software
+            <h1>nMobile
                 <span
                     class="txt-rotate"
                     data-period="2000"
-                    data-rotate='[ " helps manage your day to day.", " with a personalized App tailored to your industry.", "pure JS.", "pretty.", "fun!" ]'></span>
+                    data-rotate='[ " ERP Software that helps manage your day to day.", " provides a personalized App tailored to your industry.", " renders a UI that is accessible in any device.", " gives the client the ability to change functionality.", " will handle all your businesses’ needs at a very low cost.." ]'></span>
             </h1>
             </div>
         </div>
