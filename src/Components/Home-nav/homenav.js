@@ -12,37 +12,37 @@ const Homenav = () => {
     <img src={phone} alt='phone' className='phone'></img>
 
     <div className="row row1">
-    <NavLink to="/"  className="home-app" >
+    <NavLink to="/"  className="home-app" style={{textDecoration: 'none'}}>
         <i className="fa fa-home home-icon"></i><br></br>home
     </NavLink>
-    <NavLink to="/about" className="about-app" >
+    <NavLink to="/about" className="about-app" style={{textDecoration: 'none'}} >
         <i className="fa fa-user about-icon"></i><br></br>about
     </NavLink>
-    <NavLink to="/products" className="laptop-app" >
+    <NavLink to="/products" className="laptop-app" style={{textDecoration: 'none'}} >
         <i className="fa fa-laptop laptop-icon"></i><br></br>product
     </NavLink>
     </div>
 
     <div className="row row2">
-    <NavLink to="/service"className="service-app" >
+    <NavLink to="/service"className="service-app" style={{textDecoration: 'none'}} >
         <i className="fa fa-handshake-o service-icon"></i><br></br>services
     </NavLink>
-    <NavLink to="/support" className="support-app" >
+    <NavLink to="/support" className="support-app" style={{textDecoration: 'none'}}>
         <i className="fa fa-cogs support-icon"></i><br></br>support
     </NavLink>
-    <NavLink to="/testimonials" className="test-app" >
+    <NavLink to="/testimonials" className="test-app" style={{textDecoration: 'none'}}>
         <i className="fa fa-users test-icon"></i><br></br>clients
     </NavLink>
     </div>
 
     <div className="row row3">
-    <NavLink to="/contact" className="contact-app" >
+    <NavLink to="/contact" className="contact-app" style={{textDecoration: 'none'}}>
         <i className="fa fa-handshake-o contact-icon"></i><br></br>contact
     </NavLink>
-    <NavLink to="/login" className="login-app" >
+    <NavLink to="/login" className="login-app"style={{textDecoration: 'none'}} >
         <i className="fa fa-sign-in login-icon"></i><br></br>log-in
     </NavLink>
-    <NavLink to="/store" className="store-app">
+    <NavLink to="/store" className="store-app" style={{textDecoration: 'none'}}>
         <i className="fa fa-mobile store-icon"></i><br></br>Store
     </NavLink>
     </div> 
