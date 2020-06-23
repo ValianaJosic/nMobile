@@ -1,0 +1,26 @@
+
+.facebook-i {
+  color: black;
+  border-radius: 50%;
+  font-size: 25px;
+}
+
+.twitter-i {
+  color: black;
+  border-radius: 50%;
+  font-size: 25px;
+  padding-left: 5px;
+}
+
+.linkedin-i {
+  color: black;
+  border-radius: 50%;
+  font-size: 25px;
+  padding-left: 5px;
+}
+
+.social{
+    position: absolute;
+    left: 15%;
+    top: 85%;
+}

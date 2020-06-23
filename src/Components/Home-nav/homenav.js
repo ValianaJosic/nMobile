@@ -2,6 +2,7 @@ import React from 'react';
 import './homenav.css';
 import { NavLink } from 'react-router-dom';
 import phone from '../../Assets/Images/phone.png'
+import Social from '../Social/social';
 
 
 const Homenav = () => {
@@ -46,6 +47,7 @@ const Homenav = () => {
         <i className="fa fa-mobile store-icon"></i><br></br>Store
     </NavLink>
     </div> 
+    <Social/>
 </div>
   );
 }
