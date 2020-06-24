@@ -39,7 +39,7 @@ const Homenav = () => {
 
     <div className="row row3">
     <NavLink to="/contact" className="contact-app" style={{textDecoration: 'none'}}>
-        <i className="fa fa-handshake-o contact-icon"></i><br></br>contact
+        <i className="fa fa-envelope-o contact-icon"></i><br></br>contact
     </NavLink>
     <NavLink to="/login" className="login-app"style={{textDecoration: 'none'}} >
         <i className="fa fa-sign-in login-icon"></i><br></br>log-in
