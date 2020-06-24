@@ -296,4 +296,24 @@ body{
     background-color: black ;
 }
 
+.sun{
+    color: yellow;
+    font-size: 30px;
+}
   
+.row-intro{
+    position: absolute;
+    left: 0%;
+    top: 60%;
+    font-size: 19px;
+
+}
+.serv-icon{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.b-serv{
+    color: 	#01b3f6;
+}

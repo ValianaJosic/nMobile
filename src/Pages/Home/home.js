@@ -86,6 +86,15 @@ function Home() {
                         data-rotate='[ " ERP Software that helps manage your day to day.", " provides a personalized App tailored to your industry.", " renders a UI that is accessible in any device.", " gives the client the ability to change functionality.", " will handle all your businesses’ needs at a very low cost.." ]'></span>
                 </h1>
             </div>
+            <div className="row row-intro">
+    <ul>
+        <li className='serv-icon'><span className='b-serv'>ERP </span>Integration</li>
+        <li className='serv-icon'><span className='b-serv'>Specialty</span> applications</li>
+        <li className='serv-icon'><span className='b-serv'>Installation</span> and setup</li>
+        <li className='serv-icon'><span className='b-serv'>Mobile</span> Strategy Consulting</li>
+   
+    </ul>
+    </div> 
             <Homenav/>
         </div>
     );

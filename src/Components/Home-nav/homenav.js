@@ -11,7 +11,6 @@ const Homenav = () => {
     <div className="home-info container">
 
     <img src={phone} alt='phone' className='phone'></img>
-
     <div className="row row1">
     <NavLink to="/"  onClick={() => window.location.reload()}className="home-app" style={{textDecoration: 'none'}}>
         <i className="fa fa-home home-icon"></i><br></br>home
@@ -46,7 +45,7 @@ const Homenav = () => {
     <NavLink to="/store" className="store-app" style={{textDecoration: 'none'}}>
         <i className="fa fa-mobile store-icon"></i><br></br>Store
     </NavLink>
-    </div> 
+    </div>
     <Social/>
 </div>
   );
