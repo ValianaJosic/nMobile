@@ -68,7 +68,7 @@ function Home() {
 
     return (
 
-        <div className='home'>
+        <div className='home' >
             <div className="home-intro">
                 <div className="video hero">
                     <video autoPlay="autoplay" loop="loop" muted >

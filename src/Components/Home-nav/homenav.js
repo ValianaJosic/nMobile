@@ -13,7 +13,7 @@ const Homenav = () => {
     <img src={phone} alt='phone' className='phone'></img>
 
     <div className="row row1">
-    <NavLink to="/"  className="home-app" style={{textDecoration: 'none'}}>
+    <NavLink to="/"  onClick={() => window.location.reload()}className="home-app" style={{textDecoration: 'none'}}>
         <i className="fa fa-home home-icon"></i><br></br>home
     </NavLink>
     <NavLink to="/about" className="about-app" style={{textDecoration: 'none'}} >
