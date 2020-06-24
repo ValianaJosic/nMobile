@@ -3,6 +3,8 @@ import './homenav.css';
 import { NavLink } from 'react-router-dom';
 import phone from '../../Assets/Images/phone.png'
 import Social from '../Social/social';
+import Store from '../../Assets/Images/storelogo.jpg'
+import Google from '../../Assets/Images/googlelogo.jpg'
 
 
 const Homenav = () => {
@@ -46,7 +48,14 @@ const Homenav = () => {
         <i className="fa fa-mobile store-icon"></i><br></br>Store
     </NavLink>
     </div>
+    <a href="https://apps.apple.com/ca/app/n-mobile-suite/id586101695" target="_blank" rel="noopener  noreferrer"  style={{textDecoration: 'none'}} alt='app store'>
+        <img src={Store} alt='phone' className='app-store'></img>
+    </a>
+    <a href="https://play.google.com/store/apps/details?id=com.unisysamerica.NMobileSuite.paid.application" target="_blank" rel="noopener  noreferrer"  style={{textDecoration: 'none'}} alt='app store'>
+        <img src={Google} alt='phone' className='google-store'></img>
+    </a>
     <Social/>
+
 </div>
   );
 }

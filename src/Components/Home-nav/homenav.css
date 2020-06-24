@@ -262,19 +262,19 @@
 .row1{
     position: absolute;
     left: 2.5%;
-    top: 20%;
+    top: 16%;
 }
 
 .row2{
     position: absolute;
     left: 2.5%;
-    top: 35%;
+    top: 30%;
 }
 
 .row3{
     position: absolute;
     left: 2.5%;
-    top: 50%;
+    top: 45%;
 }
 
 
@@ -316,4 +316,27 @@ body{
 
 .b-serv{
     color: 	#01b3f6;
+}
+
+.app-store{
+    position: absolute;
+    left: 11%;
+    top: 61%; 
+    border-radius: 20%;
+}
+
+.google-store{
+    position: absolute;
+    left: 11%;
+    top: 71%;
+    border-radius: 20%;
+
+}
+
+.google-store:hover{
+    border: 2px solid #01b3f6;
+}
+
+.app-store:hover{
+    border: 2px solid #01b3f6;
 }
