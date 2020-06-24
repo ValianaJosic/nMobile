@@ -250,7 +250,7 @@
     position: absolute;
     top: 80%;
     color: white;
-    left: 2%;
+    left: 2.7%;
     font-family: 'Montserrat', sans-serif;
     font-size: 5px;
 }
@@ -303,11 +303,11 @@ body{
   
 .row-intro{
     position: absolute;
-    left: 0%;
+    left: 1%;
     top: 60%;
     font-size: 19px;
-
 }
+
 .serv-icon{
   color: white;
   font-family: 'Montserrat', sans-serif;

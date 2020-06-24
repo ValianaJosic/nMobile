@@ -14,50 +14,6 @@
     
     }
     
-    .link-div{
-      display: flex;
-      padding-left: 40px;
-      z-index: 100;
-    }
-    
-    .nav-page{
-      text-decoration: none;
-      color: #fff;
-      font-size: 15px;
-      text-transform: uppercase;
-      display: flex;
-      flex-direction: row;
-    }
-    
-    .nav-page:hover{
-      color: #AF0404;
-    }
-    
-    .nav-link{
-    padding: 20px;
-    position: relative;
-    top: 13%;
-    width: 90px;
-    height: 20px;
-    }
-
-    .span-btn{
-        border: 1px solid #E7ECEF;
-        margin-left: 20px;
-        margin-right: 10px;
-        height: 22px;
-        padding: 10px
-    }
-    
-    .property-link{
-      padding-left: 765px;
-    }
-    
-    .logo-link{
-    padding-left: 10px;
-    height: 103px;
-    }
-    
     a, ul, li {
       list-style-type: none;
       text-decoration: none;
@@ -67,35 +23,7 @@
      padding: 15px;
       margin: 0;
     }
-    
-    
-    
-    .icon-bar {
-      display: flex;
-      position: fixed;
-      top: 8%;
-      right:0;
-      -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      transform: translateY(-50%);
-      padding-right: 30px;
-    }
-    
-    
-    .icon-bar a {
-      display: block;
-      text-align: center;
-      padding: 15px;
-      transition: all 0.3s ease;
-      color:#E7ECEF;
-      font-size: 15px;
-    }
-    
-    
-    .icon-bar a:hover {
-      background-color: #AF0404;
-    }
-    
+       
     .facebook {
       color: #E7ECEF;
       border-radius: 50%;
