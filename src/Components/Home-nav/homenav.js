@@ -45,7 +45,7 @@ const Homenav = () => {
         <i className="fa fa-sign-in login-icon"></i><br></br>log-in
     </NavLink>
     <NavLink to="/store" className="store-app" style={{textDecoration: 'none'}}>
-        <i className="fa fa-mobile store-icon"></i><br></br>Store
+        <i className="fa fa-mobile store-icon"></i><br></br>store
     </NavLink>
     </div>
     <a href="https://apps.apple.com/ca/app/n-mobile-suite/id586101695" target="_blank" rel="noopener  noreferrer"  style={{textDecoration: 'none'}} alt='app store'>
