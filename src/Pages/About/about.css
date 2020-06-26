@@ -1,0 +1,21 @@
+.about{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 150px;
+    width: 650px;
+    height: 400px;
+    padding-left: 40px;
+}
+
+.about-info{
+    padding-top: 30px;
+}
+
+.about-img{
+    padding-bottom: 50px;
+}
+
+.about-intro{
+    color: #01b3f6;
+    font-size: 20px;
+}
