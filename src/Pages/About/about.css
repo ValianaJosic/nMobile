@@ -15,9 +15,11 @@
 .about-intro{
     color: #01b3f6;
     font-size: 20px;
+    padding-left: 15px;
 }
 
 .intro-div{
     background-color: whitesmoke;
     padding-bottom: 40px;
+    padding-left: 15px;
 }
