@@ -1,10 +1,7 @@
 .about{
-    color: white;
+    color: black;
     font-family: 'Montserrat', sans-serif;
     padding-top: 150px;
-    width: 650px;
-    height: 400px;
-    padding-left: 40px;
 }
 
 .about-info{
@@ -18,4 +15,9 @@
 .about-intro{
     color: #01b3f6;
     font-size: 20px;
+}
+
+.intro-div{
+    background-color: whitesmoke;
+    padding-bottom: 40px;
 }
