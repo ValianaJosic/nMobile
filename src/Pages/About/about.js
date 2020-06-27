@@ -31,7 +31,8 @@ const About = () => {
         <p>• Video Call Customer service (ex: our doctor app), all of this and much more</p>
         <p> All in the same App!</p>
         <p>Each user will have a personalized experience and view depending on their login profile. All data will be stored in the ERP software. We support Microsoft Dynamics NAV and in the future will expand supporting SAP, D365 or any other platform as the business grows. We are able to extend the functionality and any services that your current ERP is lacking using nMobile.
-        Currently ERP software is very expensive and making changes add on to the expenses. <span className='about-intro'>N Mobile reduces up to 80% of the cost of ERP implementation.</span></p>
+        Currently ERP software is very expensive and making changes add on to the expenses.</p> 
+        <p className='about-intro'>N Mobile reduces up to 80% of the cost of ERP implementation.</p>
       </div>
       <div>
         <p className="about-intro">How does it work?</p>
