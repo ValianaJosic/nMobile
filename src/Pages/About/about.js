@@ -6,6 +6,7 @@ import Banner from '../../Assets/Images/banner1.jpg'
 const About = () => {
   return (
     <div className="about">
+      <h1 className="about-title"><span className="abt-title">About </span>nMobile</h1>
       <div className='about-img-div'><img src={Banner} alt='banner' className='about-img'></img></div>
       <p className="about-intro">How will your small business succeed in this changing world?</p>
       <div className="intro-div">
