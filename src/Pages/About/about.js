@@ -17,7 +17,7 @@ const About = () => {
         <p className='about-intro'>Whether it’s retail, restaurant, warehouse, medical and more, we can help you make the transition and launch your small enterprise into the new tech world.</p>
 
       </div>
-      <div>
+      <div className="about-intro-div">
         <p className="about-intro">What features does the App have?</p>
       </div>
 
@@ -35,7 +35,7 @@ const About = () => {
         Currently ERP software is very expensive and making changes add on to the expenses.</p> 
         <p className='about-intro'>N Mobile reduces up to 80% of the cost of ERP implementation.</p>
       </div>
-      <div>
+      <div className="about-intro-div">
         <p className="about-intro">How does it work?</p>
       </div>
       <div className="intro-div">
