@@ -18,7 +18,7 @@ const Product = () => {
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block w-100" src={Server} alt="First slide"></img>
-      <p>N-Mobile App Server</p>
+      <p className='product-title'>N-Mobile App Server</p>
         <p>Our APP server gives you the ability to synchronize data between your ERP database and the database in your mobile device.</p>
        <p> • You can map any table and any field.</p>
        <p>• You can have your own images displayed on your mobile App.</p>
@@ -27,7 +27,7 @@ const Product = () => {
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src={Apps} alt="Second slide"></img>
-      <p>N-Mobile Client Apps</p>
+      <p className='product-title'>N-Mobile Client Apps</p>
         <p>N-Mobile is available for iPhone, Android and Windows Phone. Your employees, your customers, your providers, any person with a smartphone can download the App directly from App Store, Google Play and Windows Phone store. Just install, setup your App to your server(s) and securely login into your business apps…Just a few easy steps to bring your business into the mobile world..</p>
        <p>With you client Apps you can:</p>
        <p>•    View, modify and create Sales Orders, Service Orders, Purchase Orders, Quotes, etc.</p>
@@ -38,7 +38,7 @@ const Product = () => {
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src={Connect} alt="Third slide"></img>
-      <p>N-Mobile Connect</p>
+      <p className='product-title'>N-Mobile Connect</p>
         <p>No matter what your backend database is, we have special connectors for it:</p>
        <p>• SQL Server (any version).</p>
        <p>• Microsoft Dynamics NAV.</p>

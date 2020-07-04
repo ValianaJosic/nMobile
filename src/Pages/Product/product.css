@@ -30,3 +30,12 @@
     top:40%;
     right: -5%;
 }
+
+.product-title{
+    color: #01b3f6;
+    font-size: 40px;
+}
+
+.carousel-item{
+    padding-bottom: 100px;
+}
