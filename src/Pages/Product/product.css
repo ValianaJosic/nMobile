@@ -39,3 +39,10 @@
 .carousel-item{
     padding-bottom: 100px;
 }
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: black;
+    border-radius: 50%;
+    width: 30px;
+    height: 35px;
+}
