@@ -3,7 +3,8 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Home from './Pages/Home/home';
 import Navigation from './Components/Logo/logo';
-import About from './Pages/About/about'
+import About from './Pages/About/about';
+import Product from './Pages/Product/product'
 // import Footer from './Components/Footer/footer'
 
 
@@ -17,6 +18,7 @@ class App extends Component {
             <Switch>
               <Route path="/" component={Home} exact />
               <Route path="/about" component={About} exact />
+              <Route path="/product" component={Product} exact />
             </Switch>
           </div>
           {/* <Footer /> */}

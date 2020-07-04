@@ -1,0 +1,32 @@
+.product-div{
+    color: ivory;
+}
+
+.slide{
+    width: 1000px;
+    height: 288px;
+}
+
+.product-div{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 87px;
+}
+
+.product-wrapper{
+    padding-top: 120px;
+}
+
+.carousel-indicators{
+    top: 120%
+}
+
+.carousel-control-prev{
+    top:40%;
+    left: -5%;
+}
+
+.carousel-control-next{
+    top:40%;
+    right: -5%;
+}
