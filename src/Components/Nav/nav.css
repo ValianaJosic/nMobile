@@ -55,10 +55,11 @@
 
 @media (max-width: 40em) {
   .hamburgerDropDown {
-  width: 500%;
+ background-color: black;
   }
 
-  .name{
-    visibility:hidden;
-  }
+.logo{
+    padding-top: 40px;
+}
+  
   }
