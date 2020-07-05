@@ -1,11 +1,13 @@
 import React from 'react';
 import './about.css';
 import Banner from '../../Assets/Images/banner1.jpg'
+import Nav from '../../Components/Nav/nav'
 
 
 const About = () => {
   return (
     <div className="about">
+      <Nav/>
       <h1 className="about-title"><span className="abt-title">About </span>nMobile</h1>
       <div className='about-img-div'><img src={Banner} alt='banner' className='about-img'></img></div>
       <p className="about-intro">How will your small business succeed in this changing world?</p>
