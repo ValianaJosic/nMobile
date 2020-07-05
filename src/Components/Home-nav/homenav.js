@@ -32,7 +32,7 @@ const Homenav = () => {
     <NavLink to="/support" className="support-app" style={{textDecoration: 'none'}}>
         <i className="fa fa-cogs support-icon"></i><br></br>support
     </NavLink>
-    <NavLink to="/testimonials" className="test-app" style={{textDecoration: 'none'}}>
+    <NavLink to="/clients" className="test-app" style={{textDecoration: 'none'}}>
         <i className="fa fa-users test-icon"></i><br></br>clients
     </NavLink>
     </div>

@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
   return (
-    <div className="nav nav-div">
+    <div className="logo-nav logo-div">
       <NavLink to="/"  onClick={() => window.location.assign("/").reload()} className="nav-page logo-link"> <img src={Logo} alt="logo" className="logo" /></NavLink>
     </div>
   );

@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import './product.css';
 import Server from '../../Assets/Images/server.jpg'
 import Apps from '../../Assets/Images/apps.jpg'
 import Connect from '../../Assets/Images/connect.jpg'
+import Nav from '../../Components/Nav/nav'
 
 
 const Product = () => {
   return (
+    <Fragment>
+    <Nav/>
    <div className="product-wrapper">  
     <div className="product-div">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -59,7 +62,8 @@ const Product = () => {
   </a>
 </div>
     </div>
-    </div> 
+    </div>
+    </Fragment> 
   );
 }
 
