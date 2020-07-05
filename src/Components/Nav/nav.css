@@ -53,13 +53,13 @@
 
 
 
-@media (max-width: 40em) {
+@media (max-width: 75em) {
   .hamburgerDropDown {
  background-color: black;
   }
 
 .logo{
-    padding-top: 40px;
+    padding-top: 35px;
 }
   
   }
