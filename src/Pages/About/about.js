@@ -2,6 +2,7 @@ import React from 'react';
 import './about.css';
 import Banner from '../../Assets/Images/banner1.jpg'
 import Nav from '../../Components/Nav/nav'
+import Footer from '../../Components/Footer/footer'
 
 
 const About = () => {
@@ -50,7 +51,8 @@ const About = () => {
         
           <p className='about-intro'>Everything in one place so you don’t need to search for programmers, project managers or create a large technological infrastructure that can be difficult for a small business. nMobile will handle all your businesses’ needs at a very low cost.</p>
         
-      </div>  
+      </div> 
+      <Footer/> 
     </div>
 
   );
