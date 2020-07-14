@@ -4,6 +4,7 @@ import Server from '../../Assets/Images/server.jpg'
 import Apps from '../../Assets/Images/apps.jpg'
 import Connect from '../../Assets/Images/connect.jpg'
 import Nav from '../../Components/Nav/nav'
+import Footer from '../../Components/Footer/footer'
 
 
 const Product = () => {
@@ -62,6 +63,7 @@ const Product = () => {
   </a>
 </div>
     </div>
+    <Footer/>
     </div>
     </Fragment> 
   );
