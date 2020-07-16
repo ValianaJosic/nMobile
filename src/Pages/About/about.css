@@ -44,3 +44,18 @@
 color: white;
 }
 
+.cert1{ 
+    width: 80px;
+    height: 90px;
+    position: absolute;
+    right: 10%;
+    top: 2%;
+}
+
+.cert2{ 
+    width: 80px;
+    height: 90px;
+    position: absolute;
+    right: 16%;
+    top: 2%;
+}

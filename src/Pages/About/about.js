@@ -3,11 +3,15 @@ import './about.css';
 import Banner from '../../Assets/Images/banner1.jpg'
 import Nav from '../../Components/Nav/nav'
 import Footer from '../../Components/Footer/footer'
+import Cert from '../../Assets/Images/WS2016.png'
+import Cert2 from '../../Assets/Images/SQL2016.png'
 
 
 const About = () => {
   return (
     <div className="about">
+      <div><img src={Cert} alt="Certificate" className="cert1"></img></div>
+      <div><img src={Cert2} alt="Certificate" className="cert2"></img></div>
       <Nav/>
       <h1 className="about-title"><span className="abt-title">About </span>nMobile</h1>
       <div className='about-img-div'><img src={Banner} alt='banner' className='about-img'></img></div>
