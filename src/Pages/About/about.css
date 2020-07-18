@@ -40,8 +40,16 @@
 
 }
 
+.about-title:hover{
+    color: white;
+}
+
 .abt-title{
 color: white;
+}
+
+.abt-title:hover{
+    color: #01b3f6; 
 }
 
 .cert1{ 
