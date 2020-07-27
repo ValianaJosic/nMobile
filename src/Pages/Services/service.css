@@ -1,0 +1,48 @@
+.product-div{
+    color: ivory;
+}
+
+.slide{
+    width: 1000px;
+    height: 288px;
+}
+
+.product-div{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 87px;
+}
+
+.product-wrapper{
+    padding-top: 50px;
+}
+
+.carousel-indicators{
+    top: 120%
+}
+
+.carousel-control-prev{
+    top:40%;
+    left: -5%;
+}
+
+.carousel-control-next{
+    top:40%;
+    right: -5%;
+}
+
+.product-title{
+    color: #01b3f6;
+    font-size: 40px;
+}
+
+.carousel-item{
+    padding-bottom: 100px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: black;
+    border-radius: 50%;
+    width: 30px;
+    height: 35px;
+}
